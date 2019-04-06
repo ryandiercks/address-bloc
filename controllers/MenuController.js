@@ -1,4 +1,4 @@
-onst inquirer = require('inquirer');
+const inquirer = require('inquirer');
 
 module.exports = class MenuController {
     constructor(){
@@ -63,5 +63,9 @@ module.exports = class MenuController {
 
     getContactCount(){
         return this.contacts.length;
+    }
+
+    remindMe(){
+        return "Learning is a life-long pursuit";
     }
 }
