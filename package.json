@@ -1,22 +1,25 @@
 {
   "name": "address-bloc",
   "version": "1.0.0",
-  "description": "An application to model an address book in Node",
-  "main": "\u001b[D\u001b\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Capp.js)",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "set NODE_ENV=test && jasmine"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryandiercks/address-bloc.git"
+    "url": "git+https://github.com/tchrlton/address-bloc.git"
   },
-  "author": "Ryan Diercks",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ryandiercks/address-bloc/issues"
+    "url": "https://github.com/tchrlton/address-bloc/issues"
   },
-  "homepage": "https://github.com/ryandiercks/address-bloc#readme",
+  "homepage": "https://github.com/tchrlton/address-bloc#readme",
   "dependencies": {
-    "inquirer": "^5.1.0"
+    "inquirer": "^6.2.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0"
   }
 }
