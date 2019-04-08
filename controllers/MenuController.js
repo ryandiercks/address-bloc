@@ -41,6 +41,7 @@ module.exports = class MenuController {
                 default:
                   console.log("Invalid input");
                   this.main();
+
             }
         })
         .catch((err) => {
